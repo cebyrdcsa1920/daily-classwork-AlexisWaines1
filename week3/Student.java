@@ -13,4 +13,10 @@ public class Student
         this.age = age;
 
     }
+    public static void main(String[] args)
+    {
+        Student alexis = new Student("Alexis", "660041",17);
+        System.out.println(alexis);
+    }
 }
+

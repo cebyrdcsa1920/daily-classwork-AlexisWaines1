@@ -13,9 +13,30 @@ public class Car
         color = Color.YELLOW;
         numPassengers = 2;
         amountOfGas = 12.5;
+        npg = 15.0;
 
 
     }
+
+    /**
+     * Dives the car the given distance. Subtracts gas from the tank.
+     *
+     * @param distance The distance driven in miles
+     */
+    public void drive(double distance)
+    {
+        amountOfGas =distance / npg;
+    }
+
+    /**
+     * Gets the amount of gas in the tank
+     *
+     * @return amount of gas
+     */
+     public double getAmountOfGas()
+
+
+
     public String toString()
     {
         return "This is my Mustang";

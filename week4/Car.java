@@ -42,4 +42,19 @@ public class Car
         return "This is my Mustang";
 
     }
+
+    /**
+     *
+     * Fills up the gas to add to tank
+     */
+     public void fillUpGasTank(double amount)
+     {
+         amountOfGas += amount;
+     }
+
+
+     public String toString()
+     {
+         return "This is my Mustang";
+     }
 }
